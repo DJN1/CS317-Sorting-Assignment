@@ -1,3 +1,10 @@
+/**
+ * AUTHOR: David Niederweis
+ * DATE: 11/03/2020
+ * COURSE: CS317-03
+ * DESCRIPTION: This file implements the MergeSort and QuickSort algorithms for string arrays. More details are above each function.
+ * INSTRUCTIONS: To build the project, ensure make is installed. Running 'make' in your terminal in the project directory will generate an executable, "CS317Sorting" on linux-based OS, and "CS317Sorting.exe" on windows. The linux executable can be run with './CS317Sorting' and the windows executable can be be run with 'CS317.exe'. The program will ask for a filename, and then perform the previously described process of sorting and outputting data.
+ */
 #include "Sorts.h" // include header file for Sorts
 
 using namespace std; // use standard namespace, since it is the only namespace used

@@ -45,8 +45,8 @@ int main()
     cout << "Finished Mergesort!" << endl;
 
     // Runtimes
-    double quickSortTime = chrono::duration_cast<chrono::duration<double>>(quickSortEnd - quickSortStart).count(); // calculate elapsed time for quicksort in milliseconds
-    double mergeSortTime = chrono::duration_cast<chrono::duration<double>>(mergeSortEnd - mergeSortStart).count(); // calculate elapsed time for mergesort in milliseconds
+    double quickSortTime = chrono::duration_cast<chrono::milliseconds>(quickSortEnd - quickSortStart).count(); // calculate elapsed time for quicksort in milliseconds
+    double mergeSortTime = chrono::duration_cast<chrono::milliseconds>(mergeSortEnd - mergeSortStart).count(); // calculate elapsed time for mergesort in milliseconds
 
     /**
      * PRINT DATA TO FILE, DELETE DATA AND RETURN
